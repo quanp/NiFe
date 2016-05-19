@@ -1,0 +1,3164 @@
+Runing with 8 processors
+Block  Copyright (C) 2012  Garnet K.-L. Chan
+This program comes with ABSOLUTELY NO WARRANTY; for details see license file.
+This is free software, and you are welcome to redistribute it
+under certain conditions; see license file for details.
+Reading input file
+m_hf_occ_user integral
+Fiedler-vector orbital ordering: 15 7 12 9 17 11 6 13 16 10 14 19 5 1 22 4 8 21 2 18 3 20 
+
+open orbs   :
+closed orbs :
+Initial HF occupancy guess: 0 0 1 1 0 0 1 1 0 0 1 1 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 
+Checking input for errors
+Sweep at which the switch from twodot to onedot will happen -> 12
+Summary of input
+----------------
+Total number of orbitals                           :   22
+Symmetry of the targeted wavefunctions             :   22:0:1
+Number of wavefunctions targeted                   :   1
+Symmetry of the molecule                           :   c1
+
+Schedule
+--------
+Iter       : # States              Davidson_tol          Random_noise        
+0          : 250                   1.000000e-05          1.000000e-04        
+8          : 500                   1.000000e-05          1.000000e-04        
+10         : 500                   1.000000e-06          0.000000e+00        
+Switching from twodot to onedot algorithm          :   12
+Maximum sweep iterations                           :   14
+
+
+
+			 Starting sweep 0 in forwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  0 1     # states: 10    # states: 10
+			 Environment Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 38    # states: 38
+
+
+
+			 Total discarded weight -2.220446049250e-16
+
+			 Total block energy for State [ 0 ] with 250 States :: -4682.3597981277    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  0 1 2     # states: 35    # states: 35
+			 Environment Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 84    # states: 84
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4683.0071059477    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+			 Environment Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4683.0086881936    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4     # states: 451    # states: 451
+			 Environment Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 173    # states: 173
+
+
+
+			 Total discarded weight 0.0000000002
+
+			 Total block energy for State [ 0 ] with 250 States :: -4683.6163247754    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5     # states: 946    # states: 946
+			 Environment Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 197    # states: 197
+
+
+
+			 Total discarded weight 0.0000000684
+
+			 Total block energy for State [ 0 ] with 250 States :: -4683.7693661427    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6     # states: 963    # states: 963
+			 Environment Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 195    # states: 195
+
+
+
+			 Total discarded weight 0.0000002279
+
+			 Total block energy for State [ 0 ] with 250 States :: -4683.7699262447    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 1000    # states: 1000
+			 Environment Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 227    # states: 227
+
+
+
+			 Total discarded weight 0.0000006798
+
+			 Total block energy for State [ 0 ] with 250 States :: -4683.9302341006    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 1000    # states: 1000
+			 Environment Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 234    # states: 234
+
+
+
+			 Total discarded weight 0.0000047189
+
+			 Total block energy for State [ 0 ] with 250 States :: -4683.9627589394    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 1000    # states: 1000
+			 Environment Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 251    # states: 251
+
+
+
+			 Total discarded weight 0.0000072071
+
+			 Total block energy for State [ 0 ] with 250 States :: -4684.5348737355    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 999    # states: 999
+			 Environment Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 257    # states: 257
+
+
+
+			 Total discarded weight 0.0000067068
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.6966527094    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 995    # states: 995
+			 Environment Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 235    # states: 235
+
+
+
+			 Total discarded weight 0.0000001052
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.7015612362    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 985    # states: 985
+			 Environment Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 207    # states: 207
+
+
+
+			 Total discarded weight 0.0000002815
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.7311428873    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 981    # states: 981
+			 Environment Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 210    # states: 210
+
+
+
+			 Total discarded weight 0.0000004839
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.7385278828    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 975    # states: 975
+			 Environment Block			 Sites ::  15 16 17 18 19 20 21     # states: 170    # states: 170
+
+
+
+			 Total discarded weight 0.0000006918
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.7576402795    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 970    # states: 970
+			 Environment Block			 Sites ::  16 17 18 19 20 21     # states: 127    # states: 127
+
+
+
+			 Total discarded weight 0.0000015461
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.8067601404    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 940    # states: 940
+			 Environment Block			 Sites ::  17 18 19 20 21     # states: 88    # states: 88
+
+
+
+			 Total discarded weight 0.0000006070
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.8480624682    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 844    # states: 844
+			 Environment Block			 Sites ::  18 19 20 21     # states: 54    # states: 54
+
+
+
+			 Total discarded weight 0.0000002605
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.8819333035    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 803    # states: 803
+			 Environment Block			 Sites ::  19 20 21     # states: 28    # states: 28
+
+
+
+			 Total discarded weight 0.0000001836
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9150993944    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 659    # states: 659
+			 Environment Block			 Sites ::  20 21     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000072
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9156134372    
+
+			 Finished Sweep with 250 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4685.9156134372
+
+			 Largest Error for Sweep with 250 states is 0.0000072071
+			 M = 250     state = 0     Largest Discarded Weight = 7.207e-06  Sweep Energy = -4685.9156134372     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 5037.650
+			 Elapsed Sweep Wall Time (seconds): 630.967
+
+
+			 Starting sweep 1 in backwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  20 21     # states: 10    # states: 10
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 659    # states: 659
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9156134487    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  19 20 21     # states: 35    # states: 35
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 803    # states: 803
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9156616271    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 844    # states: 844
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9160672933    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 940    # states: 940
+
+
+
+			 Total discarded weight 0.0000004606
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9177291364    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  16 17 18 19 20 21     # states: 947    # states: 947
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 970    # states: 970
+
+
+
+			 Total discarded weight 0.0000230962
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9237970863    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  15 16 17 18 19 20 21     # states: 959    # states: 959
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 975    # states: 975
+
+
+
+			 Total discarded weight 0.0000270837
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9273144511    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 966    # states: 966
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 981    # states: 981
+
+
+
+			 Total discarded weight 0.0000188201
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9286527667    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 966    # states: 966
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 985    # states: 985
+
+
+
+			 Total discarded weight 0.0000212619
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9293687370    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 974    # states: 974
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 995    # states: 995
+
+
+
+			 Total discarded weight 0.0000152036
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9343177333    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 980    # states: 980
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 999    # states: 999
+
+
+
+			 Total discarded weight 0.0000174452
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9433687587    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 988    # states: 988
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 1000    # states: 1000
+
+
+
+			 Total discarded weight 0.0000038033
+
+			 Total block energy for State [ 0 ] with 250 States :: -4685.9602957871    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 983    # states: 983
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 1000    # states: 1000
+
+
+
+			 Total discarded weight 0.0000036604
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.0021684643    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 977    # states: 977
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 1000    # states: 1000
+
+
+
+			 Total discarded weight 0.0000034148
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.0342454968    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 977    # states: 977
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6     # states: 963    # states: 963
+
+
+
+			 Total discarded weight 0.0000028544
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.0856671627    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 964    # states: 964
+			 Environment Block			 Sites ::  0 1 2 3 4 5     # states: 946    # states: 946
+
+
+
+			 Total discarded weight 0.0000036849
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1154570292    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 931    # states: 931
+			 Environment Block			 Sites ::  0 1 2 3 4     # states: 451    # states: 451
+
+
+
+			 Total discarded weight 0.0000008559
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1188007861    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 868    # states: 868
+			 Environment Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000002575
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1188144387    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 846    # states: 846
+			 Environment Block			 Sites ::  0 1 2     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000001626
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1188143510    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 719    # states: 719
+			 Environment Block			 Sites ::  0 1     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000210
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1188143507    
+
+			 Finished Sweep with 250 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.1188144387
+
+			 Largest Error for Sweep with 250 states is 0.0000270837
+			 M = 250     state = 0     Largest Discarded Weight = 2.708e-05  Sweep Energy = -4686.1188144387     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 640.650
+			 Elapsed Sweep Wall Time (seconds): 81.650
+			 Finished Sweep Iteration 2
+
+
+			 Starting sweep 2 in forwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  0 1     # states: 10    # states: 10
+			 Environment Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 719    # states: 719
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1188143507    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  0 1 2     # states: 35    # states: 35
+			 Environment Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 846    # states: 846
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1188143507    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+			 Environment Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 868    # states: 868
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1188143508    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+			 Environment Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 931    # states: 931
+
+
+
+			 Total discarded weight 0.0000001188
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1188174328    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5     # states: 934    # states: 934
+			 Environment Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 964    # states: 964
+
+
+
+			 Total discarded weight 0.0000029524
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1188483977    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6     # states: 943    # states: 943
+			 Environment Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 977    # states: 977
+
+
+
+			 Total discarded weight 0.0000042303
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1190058113    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 962    # states: 962
+			 Environment Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 977    # states: 977
+
+
+
+			 Total discarded weight 0.0000147949
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1242049969    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 963    # states: 963
+			 Environment Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 983    # states: 983
+
+
+
+			 Total discarded weight 0.0000394106
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1260173545    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 968    # states: 968
+			 Environment Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 988    # states: 988
+
+
+
+			 Total discarded weight 0.0000625697
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1302823927    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 973    # states: 973
+			 Environment Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 980    # states: 980
+
+
+
+			 Total discarded weight 0.0000719996
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1346514481    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 970    # states: 970
+			 Environment Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 974    # states: 974
+
+
+
+			 Total discarded weight 0.0000276681
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1366696867    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 967    # states: 967
+			 Environment Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 966    # states: 966
+
+
+
+			 Total discarded weight 0.0000562756
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1396406204    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 966    # states: 966
+			 Environment Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 966    # states: 966
+
+
+
+			 Total discarded weight 0.0000475112
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1401866641    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 961    # states: 961
+			 Environment Block			 Sites ::  15 16 17 18 19 20 21     # states: 959    # states: 959
+
+
+
+			 Total discarded weight 0.0000720733
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1408184102    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 963    # states: 963
+			 Environment Block			 Sites ::  16 17 18 19 20 21     # states: 947    # states: 947
+
+
+
+			 Total discarded weight 0.0000874241
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1413520896    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 942    # states: 942
+			 Environment Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+
+
+
+			 Total discarded weight 0.0000063933
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1411771806    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 883    # states: 883
+			 Environment Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000006007
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1411697606    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 827    # states: 827
+			 Environment Block			 Sites ::  19 20 21     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000002387
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1411696412    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 690    # states: 690
+			 Environment Block			 Sites ::  20 21     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000081
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1411696400    
+
+			 Finished Sweep with 250 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.1413520896
+
+			 Largest Error for Sweep with 250 states is 0.0000874241
+			 M = 250     state = 0     Largest Discarded Weight = 8.742e-05  Sweep Energy = -4686.1413520896     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 396.210
+			 Elapsed Sweep Wall Time (seconds): 50.655
+			 Finished Sweep Iteration 3
+
+
+			 Starting sweep 3 in backwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  20 21     # states: 10    # states: 10
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 690    # states: 690
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1411696400    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  19 20 21     # states: 35    # states: 35
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 827    # states: 827
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1411696400    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 883    # states: 883
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1411696400    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 942    # states: 942
+
+
+
+			 Total discarded weight 0.0000009415
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1411778799    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  16 17 18 19 20 21     # states: 944    # states: 944
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 963    # states: 963
+
+
+
+			 Total discarded weight 0.0000714115
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1413762620    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  15 16 17 18 19 20 21     # states: 957    # states: 957
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 961    # states: 961
+
+
+
+			 Total discarded weight 0.0000687384
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1413781057    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 961    # states: 961
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 966    # states: 966
+
+
+
+			 Total discarded weight 0.0000558336
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1413673614    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 960    # states: 960
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 967    # states: 967
+
+
+
+			 Total discarded weight 0.0000785315
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1414664274    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 964    # states: 964
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 970    # states: 970
+
+
+
+			 Total discarded weight 0.0000422321
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1416178566    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 963    # states: 963
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 973    # states: 973
+
+
+
+			 Total discarded weight 0.0000932377
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1422493389    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 965    # states: 965
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 968    # states: 968
+
+
+
+			 Total discarded weight 0.0000626319
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1430480888    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 962    # states: 962
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 963    # states: 963
+
+
+
+			 Total discarded weight 0.0000342032
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1436429520    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 955    # states: 955
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 962    # states: 962
+
+
+
+			 Total discarded weight 0.0000087857
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1438508415    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 956    # states: 956
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6     # states: 943    # states: 943
+
+
+
+			 Total discarded weight 0.0000044316
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1442938742    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 952    # states: 952
+			 Environment Block			 Sites ::  0 1 2 3 4 5     # states: 934    # states: 934
+
+
+
+			 Total discarded weight 0.0000051901
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1443983397    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 928    # states: 928
+			 Environment Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+
+
+
+			 Total discarded weight 0.0000010311
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1443910884    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 872    # states: 872
+			 Environment Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000003391
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1443888661    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 851    # states: 851
+			 Environment Block			 Sites ::  0 1 2     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000002308
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1443887374    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 693    # states: 693
+			 Environment Block			 Sites ::  0 1     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000163
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1443887373    
+
+			 Finished Sweep with 250 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.1443983397
+
+			 Largest Error for Sweep with 250 states is 0.0000932377
+			 M = 250     state = 0     Largest Discarded Weight = 9.324e-05  Sweep Energy = -4686.1443983397     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 382.230
+			 Elapsed Sweep Wall Time (seconds): 48.885
+			 Finished Sweep Iteration 4
+
+
+			 Starting sweep 4 in forwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  0 1     # states: 10    # states: 10
+			 Environment Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 693    # states: 693
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1443887373    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  0 1 2     # states: 35    # states: 35
+			 Environment Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 851    # states: 851
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1443887373    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+			 Environment Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 872    # states: 872
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1443887373    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+			 Environment Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 928    # states: 928
+
+
+
+			 Total discarded weight 0.0000001280
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1443930028    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5     # states: 933    # states: 933
+			 Environment Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 952    # states: 952
+
+
+
+			 Total discarded weight 0.0000036850
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1444098364    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6     # states: 940    # states: 940
+			 Environment Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 956    # states: 956
+
+
+
+			 Total discarded weight 0.0000060586
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1444162241    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 954    # states: 954
+			 Environment Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 955    # states: 955
+
+
+
+			 Total discarded weight 0.0000174684
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1444455749    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 957    # states: 957
+			 Environment Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 962    # states: 962
+
+
+
+			 Total discarded weight 0.0000597551
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1445746410    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 954    # states: 954
+			 Environment Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 965    # states: 965
+
+
+
+			 Total discarded weight 0.0000910710
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1447340569    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 960    # states: 960
+			 Environment Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 963    # states: 963
+
+
+
+			 Total discarded weight 0.0001041635
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1449270413    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 962    # states: 962
+			 Environment Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 964    # states: 964
+
+
+
+			 Total discarded weight 0.0000417339
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1448546499    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 959    # states: 959
+			 Environment Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 960    # states: 960
+
+
+
+			 Total discarded weight 0.0000021848
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.1830854406    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 939    # states: 939
+			 Environment Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 961    # states: 961
+
+
+
+			 Total discarded weight 0.0000025376
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2095388930    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 937    # states: 937
+			 Environment Block			 Sites ::  15 16 17 18 19 20 21     # states: 957    # states: 957
+
+
+
+			 Total discarded weight 0.0000049310
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2361804047    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 934    # states: 934
+			 Environment Block			 Sites ::  16 17 18 19 20 21     # states: 944    # states: 944
+
+
+
+			 Total discarded weight 0.0000089015
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2723586375    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 934    # states: 934
+			 Environment Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+
+
+
+			 Total discarded weight 0.0000019367
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2743357631    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 906    # states: 906
+			 Environment Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000001502
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2743325970    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 874    # states: 874
+			 Environment Block			 Sites ::  19 20 21     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000002014
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2743325864    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 750    # states: 750
+			 Environment Block			 Sites ::  20 21     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000097
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2743325865    
+
+			 Finished Sweep with 250 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.2743357631
+
+			 Largest Error for Sweep with 250 states is 0.0001041635
+			 M = 250     state = 0     Largest Discarded Weight = 1.042e-04  Sweep Energy = -4686.2743357631     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 379.140
+			 Elapsed Sweep Wall Time (seconds): 48.507
+			 Finished Sweep Iteration 5
+
+
+			 Starting sweep 5 in backwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  20 21     # states: 10    # states: 10
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 750    # states: 750
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2743325865    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  19 20 21     # states: 35    # states: 35
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 874    # states: 874
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2743325865    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 906    # states: 906
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2743325865    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 934    # states: 934
+
+
+
+			 Total discarded weight 0.0000008561
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2743366407    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  16 17 18 19 20 21     # states: 926    # states: 926
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 934    # states: 934
+
+
+
+			 Total discarded weight 0.0000129780
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2743672946    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  15 16 17 18 19 20 21     # states: 931    # states: 931
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 937    # states: 937
+
+
+
+			 Total discarded weight 0.0000141658
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2744093909    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 926    # states: 926
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 939    # states: 939
+
+
+
+			 Total discarded weight 0.0000140058
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2744550791    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 916    # states: 916
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 959    # states: 959
+
+
+
+			 Total discarded weight 0.0000195375
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2745415442    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 906    # states: 906
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 962    # states: 962
+
+
+
+			 Total discarded weight 0.0000308161
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.2889502346    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 914    # states: 914
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 960    # states: 960
+
+
+
+			 Total discarded weight 0.0000400356
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3130051292    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 919    # states: 919
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 954    # states: 954
+
+
+
+			 Total discarded weight 0.0000113619
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3372149146    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 935    # states: 935
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 957    # states: 957
+
+
+
+			 Total discarded weight 0.0000078286
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3657892988    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 932    # states: 932
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 954    # states: 954
+
+
+
+			 Total discarded weight 0.0000045420
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3677781833    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 932    # states: 932
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6     # states: 940    # states: 940
+
+
+
+			 Total discarded weight 0.0000016648
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3686263557    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 927    # states: 927
+			 Environment Block			 Sites ::  0 1 2 3 4 5     # states: 933    # states: 933
+
+
+
+			 Total discarded weight 0.0000021562
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688730142    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 927    # states: 927
+			 Environment Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+
+
+
+			 Total discarded weight 0.0000009062
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688788118    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 885    # states: 885
+			 Environment Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000002356
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688763784    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 864    # states: 864
+			 Environment Block			 Sites ::  0 1 2     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000002330
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688763465    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 711    # states: 711
+			 Environment Block			 Sites ::  0 1     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000134
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688763463    
+
+			 Finished Sweep with 250 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.3688788118
+
+			 Largest Error for Sweep with 250 states is 0.0000400356
+			 M = 250     state = 0     Largest Discarded Weight = 4.004e-05  Sweep Energy = -4686.3688788118     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 342.690
+			 Elapsed Sweep Wall Time (seconds): 43.915
+			 Finished Sweep Iteration 6
+
+
+			 Starting sweep 6 in forwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  0 1     # states: 10    # states: 10
+			 Environment Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 711    # states: 711
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688763463    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  0 1 2     # states: 35    # states: 35
+			 Environment Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 864    # states: 864
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688763463    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+			 Environment Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 885    # states: 885
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688763463    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+			 Environment Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 927    # states: 927
+
+
+
+			 Total discarded weight 0.0000001911
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688794504    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5     # states: 924    # states: 924
+			 Environment Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 927    # states: 927
+
+
+
+			 Total discarded weight 0.0000019204
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688861779    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6     # states: 930    # states: 930
+			 Environment Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 932    # states: 932
+
+
+
+			 Total discarded weight 0.0000031130
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3688879477    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 919    # states: 919
+			 Environment Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 932    # states: 932
+
+
+
+			 Total discarded weight 0.0000118966
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3689267022    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 914    # states: 914
+			 Environment Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 935    # states: 935
+
+
+
+			 Total discarded weight 0.0000394751
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3690569713    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 923    # states: 923
+			 Environment Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 919    # states: 919
+
+
+
+			 Total discarded weight 0.0000526313
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3693210687    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 926    # states: 926
+			 Environment Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 914    # states: 914
+
+
+
+			 Total discarded weight 0.0000665032
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3700617106    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 929    # states: 929
+			 Environment Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 906    # states: 906
+
+
+
+			 Total discarded weight 0.0000202380
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3705282422    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 926    # states: 926
+			 Environment Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 916    # states: 916
+
+
+
+			 Total discarded weight 0.0000266457
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3710854998    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 927    # states: 927
+			 Environment Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 926    # states: 926
+
+
+
+			 Total discarded weight 0.0000169027
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3712180064    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 926    # states: 926
+			 Environment Block			 Sites ::  15 16 17 18 19 20 21     # states: 931    # states: 931
+
+
+
+			 Total discarded weight 0.0000223691
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3713510188    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 929    # states: 929
+			 Environment Block			 Sites ::  16 17 18 19 20 21     # states: 926    # states: 926
+
+
+
+			 Total discarded weight 0.0000272618
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714190056    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 930    # states: 930
+			 Environment Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+
+
+
+			 Total discarded weight 0.0000030466
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3713530638    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 901    # states: 901
+			 Environment Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000001551
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3713465174    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 867    # states: 867
+			 Environment Block			 Sites ::  19 20 21     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000002102
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3713464990    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 755    # states: 755
+			 Environment Block			 Sites ::  20 21     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000096
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3713464994    
+
+			 Finished Sweep with 250 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.3714190056
+
+			 Largest Error for Sweep with 250 states is 0.0000665032
+			 M = 250     state = 0     Largest Discarded Weight = 6.650e-05  Sweep Energy = -4686.3714190056     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 264.290
+			 Elapsed Sweep Wall Time (seconds): 33.959
+			 Finished Sweep Iteration 7
+
+
+			 Starting sweep 7 in backwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  20 21     # states: 10    # states: 10
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 755    # states: 755
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3713464994    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  19 20 21     # states: 35    # states: 35
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 867    # states: 867
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3713464994    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 901    # states: 901
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3713464994    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 930    # states: 930
+
+
+
+			 Total discarded weight 0.0000013424
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3713532865    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  16 17 18 19 20 21     # states: 927    # states: 927
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 929    # states: 929
+
+
+
+			 Total discarded weight 0.0000233720
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714227606    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  15 16 17 18 19 20 21     # states: 930    # states: 930
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 926    # states: 926
+
+
+
+			 Total discarded weight 0.0000252285
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714252763    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 926    # states: 926
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 927    # states: 927
+
+
+
+			 Total discarded weight 0.0000233950
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714161880    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 917    # states: 917
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 926    # states: 926
+
+
+
+			 Total discarded weight 0.0000443527
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714466836    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 920    # states: 920
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 929    # states: 929
+
+
+
+			 Total discarded weight 0.0000428418
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714390759    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 919    # states: 919
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 926    # states: 926
+
+
+
+			 Total discarded weight 0.0000806332
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3715746950    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 927    # states: 927
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 923    # states: 923
+
+
+
+			 Total discarded weight 0.0000286507
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3715430630    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 929    # states: 929
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 914    # states: 914
+
+
+
+			 Total discarded weight 0.0000203678
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3715545893    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 931    # states: 931
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 919    # states: 919
+
+
+
+			 Total discarded weight 0.0000073914
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3715174112    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 929    # states: 929
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6     # states: 930    # states: 930
+
+
+
+			 Total discarded weight 0.0000018929
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714963848    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 923    # states: 923
+			 Environment Block			 Sites ::  0 1 2 3 4 5     # states: 924    # states: 924
+
+
+
+			 Total discarded weight 0.0000021910
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714955746    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 927    # states: 927
+			 Environment Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+
+
+
+			 Total discarded weight 0.0000008640
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714876535    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 882    # states: 882
+			 Environment Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000002420
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714857218    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 864    # states: 864
+			 Environment Block			 Sites ::  0 1 2     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000002367
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714856667    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 710    # states: 710
+			 Environment Block			 Sites ::  0 1     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000133
+
+			 Total block energy for State [ 0 ] with 250 States :: -4686.3714856670    
+
+			 Finished Sweep with 250 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.3715746950
+
+			 Largest Error for Sweep with 250 states is 0.0000806332
+			 M = 250     state = 0     Largest Discarded Weight = 8.063e-05  Sweep Energy = -4686.3715746950     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 239.220
+			 Elapsed Sweep Wall Time (seconds): 30.792
+			 Finished Sweep Iteration 8
+
+
+			 Starting sweep 8 in forwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  0 1     # states: 10    # states: 10
+			 Environment Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 710    # states: 710
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3714856670    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  0 1 2     # states: 35    # states: 35
+			 Environment Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 864    # states: 864
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3714856670    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+			 Environment Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 882    # states: 882
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3714856670    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+			 Environment Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 927    # states: 927
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3714885186    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5     # states: 1716    # states: 1716
+			 Environment Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 923    # states: 923
+
+
+
+			 Total discarded weight 0.0000001667
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3714968181    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6     # states: 1858    # states: 1858
+			 Environment Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 929    # states: 929
+
+
+
+			 Total discarded weight 0.0000008488
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3715054760    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 1860    # states: 1860
+			 Environment Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 931    # states: 931
+
+
+
+			 Total discarded weight 0.0000033005
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3715424284    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 1867    # states: 1867
+			 Environment Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 929    # states: 929
+
+
+
+			 Total discarded weight 0.0000107520
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3716501045    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 1863    # states: 1863
+			 Environment Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 927    # states: 927
+
+
+
+			 Total discarded weight 0.0000175311
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3717803654    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 1852    # states: 1852
+			 Environment Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 919    # states: 919
+
+
+
+			 Total discarded weight 0.0000239797
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3720309242    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 1844    # states: 1844
+			 Environment Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 920    # states: 920
+
+
+
+			 Total discarded weight 0.0000042688
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3721450238    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 1860    # states: 1860
+			 Environment Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 917    # states: 917
+
+
+
+			 Total discarded weight 0.0000045290
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3723024370    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 1865    # states: 1865
+			 Environment Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 926    # states: 926
+
+
+
+			 Total discarded weight 0.0000030251
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3723786178    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 1867    # states: 1867
+			 Environment Block			 Sites ::  15 16 17 18 19 20 21     # states: 930    # states: 930
+
+
+
+			 Total discarded weight 0.0000046373
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3724637713    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 1865    # states: 1865
+			 Environment Block			 Sites ::  16 17 18 19 20 21     # states: 927    # states: 927
+
+
+
+			 Total discarded weight 0.0000052076
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725435812    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 1862    # states: 1862
+			 Environment Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+
+
+
+			 Total discarded weight 0.0000005152
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725377613    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 1787    # states: 1787
+			 Environment Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000000483
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725373024    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 1716    # states: 1716
+			 Environment Block			 Sites ::  19 20 21     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000000506
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725373040    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 1475    # states: 1475
+			 Environment Block			 Sites ::  20 21     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000015
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725373041    
+
+			 Finished Sweep with 500 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.3725435812
+
+			 Largest Error for Sweep with 500 states is 0.0000239797
+			 M = 500     state = 0     Largest Discarded Weight = 2.398e-05  Sweep Energy = -4686.3725435812     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 475.270
+			 Elapsed Sweep Wall Time (seconds): 60.576
+			 Finished Sweep Iteration 9
+
+
+			 Starting sweep 9 in backwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  20 21     # states: 10    # states: 10
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 1475    # states: 1475
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725373041    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  19 20 21     # states: 35    # states: 35
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 1716    # states: 1716
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725373041    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 1787    # states: 1787
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725373041    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 1862    # states: 1862
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725373041    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  16 17 18 19 20 21     # states: 1716    # states: 1716
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 1865    # states: 1865
+
+
+
+			 Total discarded weight 0.0000038573
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725537043    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  15 16 17 18 19 20 21     # states: 1871    # states: 1871
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 1867    # states: 1867
+
+
+
+			 Total discarded weight 0.0000068639
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725638022    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 1868    # states: 1868
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 1865    # states: 1865
+
+
+
+			 Total discarded weight 0.0000083595
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725707603    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 1864    # states: 1864
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 1860    # states: 1860
+
+
+
+			 Total discarded weight 0.0000149593
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3725922748    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 1862    # states: 1862
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 1844    # states: 1844
+
+
+
+			 Total discarded weight 0.0000151748
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726029537    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 1846    # states: 1846
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 1852    # states: 1852
+
+
+
+			 Total discarded weight 0.0000307149
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726992269    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 1846    # states: 1846
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 1863    # states: 1863
+
+
+
+			 Total discarded weight 0.0000093062
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726729625    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1868    # states: 1868
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 1867    # states: 1867
+
+
+
+			 Total discarded weight 0.0000066940
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726826504    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1867    # states: 1867
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 1860    # states: 1860
+
+
+
+			 Total discarded weight 0.0000021281
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726687303    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1864    # states: 1864
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6     # states: 1858    # states: 1858
+
+
+
+			 Total discarded weight 0.0000006387
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726652719    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1859    # states: 1859
+			 Environment Block			 Sites ::  0 1 2 3 4 5     # states: 1716    # states: 1716
+
+
+
+			 Total discarded weight 0.0000004384
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726627681    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1858    # states: 1858
+			 Environment Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+
+
+
+			 Total discarded weight 0.0000002422
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726618207    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1766    # states: 1766
+			 Environment Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000000874
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726615115    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1709    # states: 1709
+			 Environment Block			 Sites ::  0 1 2     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000000982
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726615100    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1456    # states: 1456
+			 Environment Block			 Sites ::  0 1     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000015
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726615101    
+
+			 Finished Sweep with 500 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.3726992269
+
+			 Largest Error for Sweep with 500 states is 0.0000307149
+			 M = 500     state = 0     Largest Discarded Weight = 3.071e-05  Sweep Energy = -4686.3726992269     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 661.390
+			 Elapsed Sweep Wall Time (seconds): 83.772
+			 Finished Sweep Iteration 10
+
+
+			 Starting sweep 10 in forwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  0 1     # states: 10    # states: 10
+			 Environment Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1456    # states: 1456
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726615101    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  0 1 2     # states: 35    # states: 35
+			 Environment Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1709    # states: 1709
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726615101    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+			 Environment Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1766    # states: 1766
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726617078    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+			 Environment Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1858    # states: 1858
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726624606    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5     # states: 1716    # states: 1716
+			 Environment Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1859    # states: 1859
+
+
+
+			 Total discarded weight 0.0000000622
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726640802    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6     # states: 1864    # states: 1864
+			 Environment Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1864    # states: 1864
+
+
+
+			 Total discarded weight 0.0000002125
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726663006    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 1863    # states: 1863
+			 Environment Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1867    # states: 1867
+
+
+
+			 Total discarded weight 0.0000011494
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726747113    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 1866    # states: 1866
+			 Environment Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1868    # states: 1868
+
+
+
+			 Total discarded weight 0.0000042436
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3726961190    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 1866    # states: 1866
+			 Environment Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 1846    # states: 1846
+
+
+
+			 Total discarded weight 0.0000065453
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727114609    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 1869    # states: 1869
+			 Environment Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 1846    # states: 1846
+
+
+
+			 Total discarded weight 0.0000134272
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727906638    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 1873    # states: 1873
+			 Environment Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 1862    # states: 1862
+
+
+
+			 Total discarded weight 0.0000056607
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727761850    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 1866    # states: 1866
+			 Environment Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 1864    # states: 1864
+
+
+
+			 Total discarded weight 0.0000064551
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727937966    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 1875    # states: 1875
+			 Environment Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 1868    # states: 1868
+
+
+
+			 Total discarded weight 0.0000035860
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727873185    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 1877    # states: 1877
+			 Environment Block			 Sites ::  15 16 17 18 19 20 21     # states: 1871    # states: 1871
+
+
+
+			 Total discarded weight 0.0000038636
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727925892    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 1870    # states: 1870
+			 Environment Block			 Sites ::  16 17 18 19 20 21     # states: 1716    # states: 1716
+
+
+
+			 Total discarded weight 0.0000026752
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727897566    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 1863    # states: 1863
+			 Environment Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727793122    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 1652    # states: 1652
+			 Environment Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727793122    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 430    # states: 430
+			 Environment Block			 Sites ::  19 20 21     # states: 35    # states: 35
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727793122    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 110    # states: 110
+			 Environment Block			 Sites ::  20 21     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727793122    
+
+			 Finished Sweep with 500 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.3727937966
+
+			 Largest Error for Sweep with 500 states is 0.0000134272
+			 M = 500     state = 0     Largest Discarded Weight = 1.343e-05  Sweep Energy = -4686.3727937966     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 714.290
+			 Elapsed Sweep Wall Time (seconds): 90.412
+			 Finished Sweep Iteration 11
+
+
+			 Starting sweep 11 in backwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  20 21     # states: 10    # states: 10
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 110    # states: 110
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727793122    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  19 20 21     # states: 35    # states: 35
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 430    # states: 430
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727793122    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 1652    # states: 1652
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727793122    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 1863    # states: 1863
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727793122    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  16 17 18 19 20 21     # states: 1716    # states: 1716
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 1870    # states: 1870
+
+
+
+			 Total discarded weight 0.0000026493
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727898044    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  15 16 17 18 19 20 21     # states: 1873    # states: 1873
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 1877    # states: 1877
+
+
+
+			 Total discarded weight 0.0000038050
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727938476    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 1870    # states: 1870
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 1875    # states: 1875
+
+
+
+			 Total discarded weight 0.0000034069
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727931272    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 1877    # states: 1877
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 1866    # states: 1866
+
+
+
+			 Total discarded weight 0.0000064679
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3728073054    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 1875    # states: 1875
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 1873    # states: 1873
+
+
+
+			 Total discarded weight 0.0000054646
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3728043397    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 1867    # states: 1867
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 1869    # states: 1869
+
+
+
+			 Total discarded weight 0.0000140643
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3728491445    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 1875    # states: 1875
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 1866    # states: 1866
+
+
+
+			 Total discarded weight 0.0000069424
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3728197414    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1872    # states: 1872
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 1866    # states: 1866
+
+
+
+			 Total discarded weight 0.0000043351
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3728085232    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1868    # states: 1868
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 1863    # states: 1863
+
+
+
+			 Total discarded weight 0.0000011707
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727920366    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1868    # states: 1868
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6     # states: 1864    # states: 1864
+
+
+
+			 Total discarded weight 0.0000001951
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727870035    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1864    # states: 1864
+			 Environment Block			 Sites ::  0 1 2 3 4 5     # states: 1716    # states: 1716
+
+
+
+			 Total discarded weight 0.0000000687
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727862956    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1859    # states: 1859
+			 Environment Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857974    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 1652    # states: 1652
+			 Environment Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857974    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 430    # states: 430
+			 Environment Block			 Sites ::  0 1 2     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857974    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 110    # states: 110
+			 Environment Block			 Sites ::  0 1     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857974    
+
+			 Finished Sweep with 500 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.3728491445
+
+			 Largest Error for Sweep with 500 states is 0.0000140643
+			 M = 500     state = 0     Largest Discarded Weight = 1.406e-05  Sweep Energy = -4686.3728491445     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 657.820
+			 Elapsed Sweep Wall Time (seconds): 83.322
+			 Finished Sweep Iteration 12
+
+			 Switching from two dot to one dot ... 
+
+			 Starting sweep 12 in forwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  0 1     # states: 10    # states: 10
+			 Environment Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 10    # states: 10
+
+
+
+			 Total discarded weight -0.000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857294    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  0 1 2     # states: 35    # states: 35
+			 Environment Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857294    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+			 Environment Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857294    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+			 Environment Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 462    # states: 462
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857294    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5     # states: 1716    # states: 1716
+			 Environment Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857293    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6     # states: 1865    # states: 1865
+			 Environment Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857294    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 1864    # states: 1864
+			 Environment Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857294    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 1868    # states: 1868
+			 Environment Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727857294    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 1868    # states: 1868
+			 Environment Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727862889    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 1872    # states: 1872
+			 Environment Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727870857    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 500    # states: 500
+			 Environment Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 1867    # states: 1867
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727886608    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 500    # states: 500
+			 Environment Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 1875    # states: 1875
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727895127    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 500    # states: 500
+			 Environment Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 1877    # states: 1877
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727903264    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 500    # states: 500
+			 Environment Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 1870    # states: 1870
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727906169    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 500    # states: 500
+			 Environment Block			 Sites ::  15 16 17 18 19 20 21     # states: 1873    # states: 1873
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 500    # states: 500
+			 Environment Block			 Sites ::  16 17 18 19 20 21     # states: 1716    # states: 1716
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 462    # states: 462
+			 Environment Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 126    # states: 126
+			 Environment Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 35    # states: 35
+			 Environment Block			 Sites ::  19 20 21     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 19
+			 ============================
+			 System  Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 10    # states: 10
+			 Environment Block			 Sites ::  20 21     # states: 10    # states: 10
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Finished Sweep with 500 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.3727908652
+
+			 Largest Error for Sweep with 500 states is 0.0000000000
+			 M = 500     state = 0     Largest Discarded Weight = 7.772e-16  Sweep Energy = -4686.3727908652     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 368.240
+			 Elapsed Sweep Wall Time (seconds): 46.949
+			 Finished Sweep Iteration 13
+
+
+			 Starting sweep 13 in backwards direction
+			 ============================================================================ 
+
+			 Block Iteration :: 0
+			 ============================
+			 System  Block			 Sites ::  20 21     # states: 10    # states: 10
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 1
+			 ============================
+			 System  Block			 Sites ::  19 20 21     # states: 35    # states: 35
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 2
+			 ============================
+			 System  Block			 Sites ::  18 19 20 21     # states: 126    # states: 126
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 3
+			 ============================
+			 System  Block			 Sites ::  17 18 19 20 21     # states: 462    # states: 462
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16     # states: 462    # states: 462
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 4
+			 ============================
+			 System  Block			 Sites ::  16 17 18 19 20 21     # states: 1716    # states: 1716
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15     # states: 500    # states: 500
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 5
+			 ============================
+			 System  Block			 Sites ::  15 16 17 18 19 20 21     # states: 1873    # states: 1873
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14     # states: 500    # states: 500
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 6
+			 ============================
+			 System  Block			 Sites ::  14 15 16 17 18 19 20 21     # states: 1870    # states: 1870
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12 13     # states: 500    # states: 500
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 7
+			 ============================
+			 System  Block			 Sites ::  13 14 15 16 17 18 19 20 21     # states: 1877    # states: 1877
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11 12     # states: 500    # states: 500
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 8
+			 ============================
+			 System  Block			 Sites ::  12 13 14 15 16 17 18 19 20 21     # states: 1875    # states: 1875
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10 11     # states: 500    # states: 500
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727908652    
+
+			 Block Iteration :: 9
+			 ============================
+			 System  Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 1867    # states: 1867
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 500    # states: 500
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727911028    
+
+			 Block Iteration :: 10
+			 ============================
+			 System  Block			 Sites ::  11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9 10     # states: 1872    # states: 1872
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727913939    
+
+			 Block Iteration :: 11
+			 ============================
+			 System  Block			 Sites ::  10 11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8 9     # states: 1868    # states: 1868
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727913939    
+
+			 Block Iteration :: 12
+			 ============================
+			 System  Block			 Sites ::  9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7 8     # states: 1868    # states: 1868
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727916657    
+
+			 Block Iteration :: 13
+			 ============================
+			 System  Block			 Sites ::  8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6 7     # states: 1864    # states: 1864
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727916657    
+
+			 Block Iteration :: 14
+			 ============================
+			 System  Block			 Sites ::  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+			 Environment Block			 Sites ::  0 1 2 3 4 5 6     # states: 1865    # states: 1865
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727916657    
+
+			 Block Iteration :: 15
+			 ============================
+			 System  Block			 Sites ::  6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 500    # states: 500
+			 Environment Block			 Sites ::  0 1 2 3 4 5     # states: 1716    # states: 1716
+
+
+
+			 Total discarded weight -0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727916657    
+
+			 Block Iteration :: 16
+			 ============================
+			 System  Block			 Sites ::  5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 462    # states: 462
+			 Environment Block			 Sites ::  0 1 2 3 4     # states: 462    # states: 462
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727916657    
+
+			 Block Iteration :: 17
+			 ============================
+			 System  Block			 Sites ::  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 126    # states: 126
+			 Environment Block			 Sites ::  0 1 2 3     # states: 126    # states: 126
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727916657    
+
+			 Block Iteration :: 18
+			 ============================
+			 System  Block			 Sites ::  3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 35    # states: 35
+			 Environment Block			 Sites ::  0 1 2     # states: 35    # states: 35
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727916657    
+
+			 Block Iteration :: 19
+			 ============================
+			 System  Block			 Sites ::  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21     # states: 10    # states: 10
+			 Environment Block			 Sites ::  0 1     # states: 10    # states: 10
+
+
+
+			 Total discarded weight 0.0000000000
+
+			 Total block energy for State [ 0 ] with 500 States :: -4686.3727916657    
+
+			 Finished Sweep with 500 states and sweep energy for State [ 0 ] with Spin [ 0 ] :: -4686.3727916657
+
+			 Largest Error for Sweep with 500 states is 0.0000000000
+			 M = 500     state = 0     Largest Discarded Weight = 2.220e-16  Sweep Energy = -4686.3727916657     
+			 ============================================================================ 
+			 Elapsed Sweep CPU  Time (seconds): 363.170
+			 Elapsed Sweep Wall Time (seconds): 46.212
+			 Finished Sweep Iteration 14
+
+
+			 BLOCK CPU  Time (seconds): 10924.680
+			 BLOCK Wall Time (seconds): 1380.881
