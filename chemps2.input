@@ -1,0 +1,34 @@
+FCIDUMP = /temp0/quan/bis-fci.work/FCIDUMP-full
+GROUP   = 6
+
+MULTIPLICITY = 1
+NELECTRONS   = 64
+IRREP        = 0
+EXCITATION   = 0
+
+SWEEP_STATES       = 250,   500,   1000
+SWEEP_ENERGY_CONV  = 1e-10, 1e-10, 1e-10
+SWEEP_MAX_SWEEPS   = 8,     4,     4
+SWEEP_NOISE_PREFAC = 0.05,  0.0,   0.0
+SWEEP_DVDSON_RTOL  = 1e-5,  1e-10, 1e-10
+
+NOCC =  7,  7,  3,  3
+NACT =  7,  7,  5,  5
+NVIR = 89, 88, 60, 61
+
+SCF_STATE_AVG    = FALSE
+SCF_DIIS_THR     = 1e-2
+SCF_GRAD_THR     = 1e-7
+SCF_MAX_ITER     = 1
+SCF_ACTIVE_SPACE = F
+
+CASPT2_CALC    = TRUE
+CASPT2_ORBS    = A
+CASPT2_IPEA    = 0.25
+CASPT2_IMAG    = 0.2
+CASPT2_CHECKPT = TRUE
+
+PRINT_CORR = TRUE
+
+TMP_FOLDER = /temp0/quan/bis-chemps2
+

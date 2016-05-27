@@ -1,11 +1,11 @@
-nelec 22
-orbitals FCIDUMP-nife
+nelec 24
+orbitals FCIDUMP
 spin 0
 irrep 1
 schedule default
 maxM 500
-maxiter 10
-point_group c1
+maxiter 20
+point_group c2h
 
 hf_occ integral
 
