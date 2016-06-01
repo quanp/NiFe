@@ -1,0 +1,37 @@
+&GATEWAY
+ Coord
+12
+
+Cu 0.000000 1.400000 0.000000
+Cu 0.000000 -1.400000 0.000000
+O 0.000000 0.000000 1.150000
+O 0.000000 0.000000 -1.150000
+N 0.000000 3.400000 0.000000
+N 0.000000 -3.400000 0.000000
+H -0.939693 3.742020 0.000000
+H 0.939693 -3.742020 0.000000
+H 0.469846 3.742020 0.813798
+H -0.469846 -3.742020 -0.813798
+H 0.469846 3.742020 -0.813798
+H -0.469846 -3.742020 0.813798
+ 
+ Basis Set = Cu.ANO-rcc...7s6p5d3f2g1h,N.ANO-rcc...4s3p2d1f,O.ANO-rcc...4s3p2d1f,H.ANO-rcc...3s1p
+
+&SEWARD
+ Medium
+
+>> COPY $CurrDir/rasorb.24in24s1r1.sing-1000 $WorkDir/$Project.RasOrb
+
+&RASSCF
+ LumOrb
+ Spin = 1
+ Symmetry = 1
+ nActEl   = 64 0 0
+ Inactive =   6  1  2   5
+ Ras2     = 103 68 69 102
+ Iterations = 25 100
+ 
+* nActEl   = 24 0 0
+* Inactive = 13 4 5 12
+* Ras2     =  7 5 5  7
+ 
