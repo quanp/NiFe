@@ -1,0 +1,15 @@
+>> COPY $CurrDir/rasorb.24in24s1r1.sing-1000 $WorkDir/$Project.RasOrb
+
+&RASSCF
+ LumOrb
+ Spin = 1
+ Symmetry = 1
+ nActEl   = 64 0 0
+ Inactive =   6  1  2   5
+ Ras2     = 103 68 69 102
+ Iterations = 25 100
+ 
+* nActEl   = 24 0 0
+* Inactive = 13 4 5 12
+* Ras2     =  7 5 5  7
+ 

@@ -1,0 +1,7 @@
+&GATEWAY
+ Coord = bis.xyz
+ Basis Set = Cu.ANO-rcc...7s6p5d3f2g1h,N.ANO-rcc...4s3p2d1f,O.ANO-rcc...4s3p2d1f,H.ANO-rcc...3s1p
+
+&SEWARD
+ Medium
+
